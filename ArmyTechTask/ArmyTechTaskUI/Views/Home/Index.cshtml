@@ -1,0 +1,56 @@
+﻿@using ViewModel
+@model IEnumerable<StudentViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<h2>All Students</h2>
+
+<br>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">BirthDate</th>
+            <th scope="col">Governorate</th>
+            <th scope="col">Neighborhood</th>
+            <th scope="col">Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+        <tr>
+            <th scope="row">@Html.DisplayFor(e => student.ID)</th>
+            <td>@Html.DisplayFor(e => student.Name)</td>
+            <td>@Html.DisplayFor(e => student.BirthDate)</td>
+            <td>@Html.DisplayFor(e => student.GovernorateName)</td>
+            <td>@Html.DisplayFor(e => student.NeighborhoodName)</td>
+            <td>@Html.DisplayFor(e => student.FieldName)</td>
+            @*<td>@Html.ActionLink("Update", "UpdateStudent", new { id = student.ID },new { @class="btn-info",type="button"})</td>*@
+            <td>
+                @using (Html.BeginForm("UpdateStudent", "Home", new { id = student.ID }, FormMethod.Get))
+                {
+                    <input type="submit" class="btn-info" value="Update" />
+                }
+            </td>
+            <td>
+                @using (Html.BeginForm("DeleteStudent", "Home", new { id = student.ID }, FormMethod.Post))
+                {
+                    <input type="submit" class="btn-danger" value="Delete" />
+                }
+            </td>
+
+            </tr>
+
+        }
+    </tbody>
+
+
+</table>
+@Html.ActionLink("Add New Student", "AddStudent")
+
+
+
+
+

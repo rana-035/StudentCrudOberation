@@ -1,0 +1,57 @@
+﻿@using ViewModel
+@model StudentEditViewModel
+@{
+    ViewBag.Title = "UpdateStudent";
+}
+
+<h2>Update Student</h2>
+
+
+<div class="content">
+
+    @using (Html.BeginForm("UpdateStudent", "Home", FormMethod.Post))
+    {
+        @Html.LabelFor(e => e.Name)
+        @Html.TextBoxFor(e => e.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Name, "", new { @class = "text-danger" })
+        <br />
+
+        @Html.LabelFor(e => e.BirthDate)
+        @Html.TextBoxFor(e => e.BirthDate,"{0:yyyy-MM-dd}", new { type = "date", @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.BirthDate, "", new { @class = "text-danger" })
+        <br />
+
+        @Html.Label("Select Governate")
+        @Html.DropDownListFor(i => i.GovernorateId, new SelectList(ViewBag.Governate, "ID", "Name"), new { @class = "form-control", @id = "governate" })
+        @Html.ValidationMessageFor(e => e.GovernorateId, "", new { @class = "text-danger" })
+        <br />
+
+        @Html.Label("Select Neighborhood")
+        @Html.DropDownListFor(i => i.NeighborhoodId, new SelectList(ViewBag.Neighborhood,"ID", "Name"), new { @class = "form-control", @id = "NeighborhoodId" })
+        @Html.ValidationMessageFor(e => e.NeighborhoodId, "", new { @class = "text-danger" })
+        <br />
+
+        @*@Html.Label("Select Neighborhood")
+            <select id="NeighborhoodId" name="NeighborhoodId"  class="form-control"  >
+                <option value="0">Select</option>
+            </select>
+            <br />*@
+
+        @Html.Label("Select Field")
+        @Html.DropDownListFor(i => i.FieldId, new SelectList(ViewBag.Field, "ID", "Name"), new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.FieldId, "", new { @class = "text-danger" })
+        <br />
+
+        <input type="submit" value="Update Student" class="btn btn-success" />
+        @Html.ActionLink("Cancel", "Index", new { @class = "btn btn-danger" });
+
+    }
+
+
+
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/Script.js"></script>
+
+

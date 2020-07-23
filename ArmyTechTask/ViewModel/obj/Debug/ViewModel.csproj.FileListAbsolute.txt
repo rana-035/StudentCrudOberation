@@ -1,0 +1,16 @@
+D:\Job Taska\ArmyTechTask\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+D:\Job Taska\ArmyTechTask\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\ViewModel.dll.config
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\ViewModel.dll
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\ViewModel.pdb
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Entities.dll
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Entities.pdb
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Entities.dll.config
+D:\Job Taska\ArmyTechTask\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+D:\Job Taska\ArmyTechTask\ViewModel\obj\Debug\ViewModel.dll
+D:\Job Taska\ArmyTechTask\ViewModel\obj\Debug\ViewModel.pdb
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Repositories.dll
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\EntityFramework.dll
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Repositories.pdb
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\Repositories.dll.config
+D:\Job Taska\ArmyTechTask\ViewModel\bin\Debug\EntityFramework.xml

@@ -1,0 +1,6 @@
+D:\Job Taska\ArmyTechTask\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Job Taska\ArmyTechTask\Entities\bin\Debug\Entities.dll.config
+D:\Job Taska\ArmyTechTask\Entities\bin\Debug\Entities.dll
+D:\Job Taska\ArmyTechTask\Entities\bin\Debug\Entities.pdb
+D:\Job Taska\ArmyTechTask\Entities\obj\Debug\Entities.dll
+D:\Job Taska\ArmyTechTask\Entities\obj\Debug\Entities.pdb

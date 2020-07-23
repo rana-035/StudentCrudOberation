@@ -1,0 +1,15 @@
+D:\Job Taska\ArmyTechTask\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\Job Taska\ArmyTechTask\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Repositories.dll.config
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Repositories.dll
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Repositories.pdb
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Entities.dll
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\EntityFramework.dll
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Entities.pdb
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\Entities.dll.config
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\EntityFramework.xml
+D:\Job Taska\ArmyTechTask\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Job Taska\ArmyTechTask\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\Job Taska\ArmyTechTask\Repositories\obj\Debug\Repositories.dll
+D:\Job Taska\ArmyTechTask\Repositories\obj\Debug\Repositories.pdb
